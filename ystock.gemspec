@@ -11,4 +11,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.summary = %q{Grab stock information from Yahoo}
   s.license = 'MIT'
+
+  s.add_development_dependency 'pry'
+  s.add_development_dependency 'pry-byebug'
 end
